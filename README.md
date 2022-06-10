@@ -1,2 +1,2 @@
-# piece
-Git hooks for piece of python teams
+# pie 🥧
+Git hooks for python easy as pie
