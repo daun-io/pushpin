@@ -1,2 +1,2 @@
-# pie 🥧
-Git hooks for python easy as pie
+# piece 
+Git hooks for python easy as piece of cake 
