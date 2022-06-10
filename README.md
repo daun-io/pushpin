@@ -1,2 +1,2 @@
-# piece 
-Git hooks for python easy as piece of cake 
+# piece
+Git hooks for python easy as piece of cake 🍰
