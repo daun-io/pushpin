@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+# pylint: disable-all
 # type: ignore
 if [ -z "$pushpin_skip_init" ]; then
   debug () {
