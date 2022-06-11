@@ -13,7 +13,7 @@ whenever you commit or push. pushpin supports all Git hooks.
 - User-friendly messages
 - Optional install
 - Supports
-    - macOS, Linux and Windows
+    - macOS, Linux
     - Git GUIs
     - Custom directories
     - Monorepos
