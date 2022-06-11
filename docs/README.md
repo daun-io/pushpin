@@ -5,6 +5,19 @@ Pushpin improves your python commits and more.
 You can use it to run toolings like pytest, pylint, isort, black, etc
 whenever you commit or push. pushpin supports all Git hooks.
 
+# Features
+- It's basically [husky](https://typicode.github.io/husky/#/) but for pip and modern python toolings
+- Zero dependencies and lightweight
+- Powered by modern new Git feature (core.hooksPath)
+- Follows python best practices
+- User-friendly messages
+- Optional install
+- Supports
+    - macOS, Linux and Windows
+    - Git GUIs
+    - Custom directories
+    - Monorepos
+
 # Install
 
 ```bash
