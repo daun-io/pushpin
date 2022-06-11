@@ -1,2 +1,2 @@
-def test_install(run):
+def test_uninstall(run):
     run("uninstall")
