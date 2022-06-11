@@ -1,6 +1,6 @@
 def test_add(run):
-    run('install')
-    run('add pre-commit "isort ."')
-    run('add pre-commit "black ."')
-    run('add pre-commit "pytest"')
-    run('add pre-commit "pylint --fail-under=8 ."')
+    run("install")
+    run('add .pushpin/pre-commit "isort ."')
+    run('add .pushpin/pre-commit "black ."')
+    run('add .pushpin/pre-commit "pytest"')
+    run('add .pushpin/pre-commit "pylint --fail-under=8 ."')

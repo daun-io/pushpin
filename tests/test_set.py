@@ -1,3 +1,3 @@
-def test_set(run):
-    run('install')
-    run('set pre-commit "isort ."')
+def testset_(run):
+    run("install")
+    run('set .pushpin/pre-commit "isort ."')
