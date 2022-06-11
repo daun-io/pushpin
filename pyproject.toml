@@ -1,6 +1,6 @@
 [tool.poetry]
 name        = "pushpin"
-version     = "0.4.9"
+version     = "0.5.0"
 description = "Git hooks for python 📌"
 authors     = ["Jung Daun <iam@nyanye.com>"]
 readme      = "README.md"
