@@ -87,7 +87,7 @@ def set_(file: str, cmd: str):
     # Create .pushpin/_/.gitignore
     with open(file, "w", opener=opener, encoding="utf-8") as handle:
         handle.write("#!/usr/bin/env sh\n")
-        handle.write('. "$(dirname -- "$0")/_/pushpin.sh\n"')
+        handle.write('. "$(dirname -- "$0")/_/pushpin.sh"\n')
         handle.write(cmd + "\n")
 
     log(f"created {file}")
