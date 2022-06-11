@@ -10,7 +10,6 @@ homepage    = "https://github.com/nat-n/poethepoet"
 packages    = [
     { include = "pushpin" },
 ]
-include     = ["pushpin.sh"]
 
 [tool.poetry.scripts]
 pushpin = "pushpin:main"
