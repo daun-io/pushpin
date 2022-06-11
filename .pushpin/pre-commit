@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/pushpin.sh"
+isort .
+black .
+pylint --fail-under=8 pushpin
+pytest
