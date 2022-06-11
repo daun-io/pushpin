@@ -1,6 +1,10 @@
 # pushpin
 Git hooks for python 📌
 
+[![CI](https://github.com/nyanye/pushpin/actions/workflows/ci.yml/badge.svg)](https://github.com/nyanye/pushpin/actions/workflows/ci.yml)
+[![PyPI download month](https://img.shields.io/pypi/dm/ansicolortags.svg)](https://pypi.python.org/pypi/pushpin/)
+[![PyPI version fury.io](https://badgen.net/pypi/v/pushpin/)](https://pypi.com/project/pushpin)
+
 Pushpin improves your python commits and more.
 You can use it to run toolings like pytest, pylint, isort, black, etc
 whenever you commit or push. pushpin supports all Git hooks.
