@@ -40,11 +40,16 @@ def install(directory: str = ".pushpin"):
             f.write("*")
 
         # Copy pushpin.sh to .pushpin/_/pushpin.sh
-        print(__file__)
-        shutil.copy(
-            os.path.abspath(os.path.join(os.path.dirname(__file__), "../pushpin.sh")),
-            os.path.abspath(os.path.join(directory, "_/pushpin.sh")),
-        )
+        try:
+            shutil.copy(
+                os.path.abspath(os.path.join(os.path.dirname(__file__), "../pushpin.sh")),
+                os.path.abspath(os.path.join(directory, "_/pushpin.sh")),
+            )
+        except FileNotFoundError:
+            shutil.copy(
+                os.path.abspath(os.path.join(os.path.dirname(__file__), "pushpin.sh.py")),
+                os.path.abspath(os.path.join(directory, "_/pushpin.sh")),
+            )
 
         # Configure repo
         if git("config", "core.hooksPath", directory).returncode != 0:
