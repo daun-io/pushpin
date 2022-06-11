@@ -25,7 +25,7 @@ jobs:
           python -m pip install poetry
           echo "$HOME/.poetry/bin" >> $GITHUB_PATH
       - name: Install dependencies
-        run: poetry install -D
+        run: poetry install
 
       - name: Run pylint
         run: pylint --fail-under=8 .
