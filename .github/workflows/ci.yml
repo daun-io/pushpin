@@ -25,7 +25,10 @@ jobs:
           python -m pip install poetry
           echo "$HOME/.poetry/bin" >> $GITHUB_PATH
       - name: Install dependencies
-        run: poetry install
+        run: poetry install -D
+
+      - name: Run pylint
+        run: pylint --fail-under=8 .
 
   run-tests:
     runs-on: ${{ matrix.os }}-latest
