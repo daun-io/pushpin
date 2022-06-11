@@ -1,7 +1,7 @@
 <h1 align="center">pushpin</h1>
 
 <p align="center">
-<a href="https://github.com/nyanye/pushpin/docs/pushpin.png"><img src="https://github.com/nyanye/pushpin/docs/pushpin.png"></a><br>
+<a href="https://raw.githubusercontent.com/nyanye/pushpin/main/docs/pushpin.png"><img src="https://raw.githubusercontent.com/nyanye/pushpin/main/docs/pushpin.png"></a><br>
   <a href="https://github.com/nyanye/pushpin/actions/workflows/ci.yml"><img src="https://github.com/nyanye/pushpin/actions/workflows/ci.yml/badge.svg"/></a>
   <a href="https://pypi.org/project/pushpin/"><img src="https://badge.fury.io/py/pushpin.svg" /></a>
   <a href="https://pypi.org/project/pushpin/"><img src="https://img.shields.io/pypi/dm/ansicolortags.svg" /></a>
